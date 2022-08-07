@@ -1,0 +1,29 @@
+database:
+  host_address: localhost
+  port: 5432
+  name: localhost_fitx
+  user: localhost_fitx
+  password: 123456
+
+http:
+  base_url: localhost
+  host: localhost
+  port: 9876
+
+redis:
+  host: localhost
+  port: 6379
+
+auth:
+  private_key: localhost_private_key
+  public_key: localhost_public_key
+  access_token_expiration_millis: 300000
+  refresh_token_expiration_millis: 2592000000
+
+mail_service:
+  api_key: localhost_api_key
+
+env: test
+
+logger:
+  config_path: localhost_config_path
